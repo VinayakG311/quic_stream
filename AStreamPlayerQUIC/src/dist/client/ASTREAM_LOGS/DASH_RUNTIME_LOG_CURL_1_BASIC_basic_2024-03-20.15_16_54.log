@@ -1,0 +1,5 @@
+2024-03-20 15:16:54,615 - dash_client.py:696 - INFO - Downloading MPD file http://192.168.29.162:80/my.mpd
+2024-03-20 15:16:54,617 - dash_client.py:113 - INFO - Downloaded the MPD file my.mpd
+2024-03-20 15:16:54,617 - read_mpd.py:121 - INFO - Reading the MPD file
+2024-03-20 15:16:54,617 - read_mpd.py:198 - INFO - Found Video
+2024-03-20 15:16:54,617 - read_mpd.py:200 - INFO - Retrieving Media

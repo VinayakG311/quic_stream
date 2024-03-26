@@ -1,0 +1,23 @@
+2024-03-23 12:42:21,551 - dash_client.py:713 - INFO - Downloading MPD file http://192.168.29.162:80/my.mpd
+2024-03-23 12:42:21,552 - dash_client.py:113 - INFO - Downloaded the MPD file my.mpd
+2024-03-23 12:42:21,552 - read_mpd.py:127 - INFO - Reading the MPD file
+2024-03-23 12:42:21,553 - read_mpd.py:164 - INFO - Found Video
+2024-03-23 12:42:21,553 - read_mpd.py:166 - INFO - Retrieving Media
+2024-03-23 12:42:21,553 - dash_client.py:727 - INFO - The DASH media has 1 video representations
+2024-03-23 12:42:21,553 - dash_client.py:737 - CRITICAL - Started Basic-DASH Playback
+2024-03-23 12:42:21,553 - dash_buffer.py:23 - INFO - Initializing the Buffer
+2024-03-23 12:42:21,553 - dash_buffer.py:56 - INFO - VideoLength=634.625,segmentDuration=4,MaxBufferSize=634.625,InitialBuffer(secs)=1,BufferAlph(secs)=5,BufferBeta(secs)=10
+2024-03-23 12:42:21,553 - dash_buffer.py:64 - INFO - Changing state from INITIALIZED to INITIAL_BUFFERING at 0 Playback time 
+2024-03-23 12:42:21,553 - dash_buffer.py:271 - INFO - BufferStats: EpochTime=0,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=INITIAL_BUFFERING,Action=Starting,Bitrate=0
+2024-03-23 12:42:21,553 - dash_buffer.py:234 - INFO - Starting the Player
+2024-03-23 12:42:21,553 - dash_buffer.py:77 - INFO - Initialized player with video length 634.625
+2024-03-23 12:42:21,553 - dash_buffer.py:271 - INFO - BufferStats: EpochTime=0,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=INITIAL_BUFFERING,Action=Starting,Bitrate=0
+2024-03-23 12:42:21,553 - dash_client.py:269 - INFO - The segments are stored in URLLIB_
+2024-03-23 12:42:22,058 - dash_client.py:344 - INFO - *************** segment_number:1*********************
+2024-03-23 12:42:22,058 - dash_client.py:345 - INFO -  BASIC: Processing the segment 1
+2024-03-23 12:42:22,059 - dash_client.py:415 - INFO - BASIC: Segment URL = http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 12:42:22,568 - dash_client.py:432 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 12:42:22,568 - dash_client.py:433 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 12:42:22,568 - dash_client.py:526 - INFO - get_sub_process for CURL
+2024-03-23 12:42:23,070 - dash_client.py:529 - INFO - got_sub_process for CURL
+2024-03-23 12:42:23,571 - dash_client.py:435 - INFO - GOT NEW SUBRPOCESS

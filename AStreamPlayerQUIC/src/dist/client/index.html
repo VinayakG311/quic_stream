@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> DASH Video Player </title>
+  <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+  <script>
+  dashjs.MediaPlayer.events.DEBUG = true;
+  dashjs.MediaPlayer.events.LOG_LEVEL = dashjs.MediaPlayer.events.LOG_LEVEL_DEBUG;
+  </script>
+</head>
+
+<body>
+<video dash-dashjs-player autoplay width="640" height="360" controls>
+  <source src="\dash\playlist.mpd" type="application/dash+xml"/>
+  <!--<source src="Big Buck Bunny.mp4" type="video/mp4"/>
+  <source src="mp4_1280x720_1500k.webm" />
+  Your browser does not support the video tag.-->
+</video>
+</body>
+</html>

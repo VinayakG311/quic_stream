@@ -1,0 +1,91 @@
+2024-03-23 09:06:13,921 - dash_client.py:696 - INFO - Downloading MPD file http://192.168.29.162:80/my.mpd
+2024-03-23 09:06:13,942 - dash_client.py:113 - INFO - Downloaded the MPD file my.mpd
+2024-03-23 09:06:13,942 - read_mpd.py:127 - INFO - Reading the MPD file
+2024-03-23 09:06:13,943 - read_mpd.py:164 - INFO - Found Video
+2024-03-23 09:06:13,943 - read_mpd.py:166 - INFO - Retrieving Media
+2024-03-23 09:06:13,943 - dash_client.py:710 - INFO - The DASH media has 1 video representations
+2024-03-23 09:06:13,943 - dash_client.py:720 - CRITICAL - Started Basic-DASH Playback
+2024-03-23 09:06:13,943 - dash_buffer.py:23 - INFO - Initializing the Buffer
+2024-03-23 09:06:13,943 - dash_buffer.py:56 - INFO - VideoLength=634.625,segmentDuration=4,MaxBufferSize=634.625,InitialBuffer(secs)=1,BufferAlph(secs)=5,BufferBeta(secs)=10
+2024-03-23 09:06:13,944 - dash_buffer.py:64 - INFO - Changing state from INITIALIZED to INITIAL_BUFFERING at 0 Playback time 
+2024-03-23 09:06:13,944 - dash_buffer.py:271 - INFO - BufferStats: EpochTime=0,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=INITIAL_BUFFERING,Action=Starting,Bitrate=0
+2024-03-23 09:06:13,944 - dash_buffer.py:234 - INFO - Starting the Player
+2024-03-23 09:06:13,944 - dash_buffer.py:77 - INFO - Initialized player with video length 634.625
+2024-03-23 09:06:13,944 - dash_buffer.py:271 - INFO - BufferStats: EpochTime=0,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=INITIAL_BUFFERING,Action=Starting,Bitrate=0
+2024-03-23 09:06:13,944 - dash_client.py:261 - INFO - The segments are stored in URLLIB_
+2024-03-23 09:06:14,449 - dash_client.py:333 - INFO - *************** segment_number:1*********************
+2024-03-23 09:06:14,449 - dash_client.py:334 - INFO -  BASIC: Processing the segment 1
+2024-03-23 09:06:14,449 - dash_client.py:404 - INFO - BASIC: Segment URL = http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:15,002 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:15,002 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:15,002 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:15,504 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:16,005 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:16,513 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:16,514 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:16,514 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:17,015 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:17,516 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:18,025 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:18,026 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:18,026 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:18,527 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:19,028 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:19,537 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:19,537 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:19,537 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:20,039 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:20,540 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:21,049 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:21,049 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:21,049 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:21,551 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:22,051 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:22,560 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:22,560 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:22,561 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:23,062 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:23,563 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:24,072 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:24,072 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:24,072 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:24,574 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:25,075 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:25,584 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:25,584 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:25,584 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:26,086 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:26,587 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:27,095 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:27,095 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:27,096 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:27,597 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:28,098 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:28,607 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:28,607 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:28,607 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:29,109 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:29,610 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:30,119 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:30,119 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:30,119 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:30,621 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:31,122 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:31,630 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:31,631 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:31,631 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:32,132 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:32,633 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:33,142 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:33,142 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:33,142 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:33,644 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:34,145 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:34,654 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:34,654 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:34,654 - dash_client.py:515 - INFO - get_sub_process for CURL
+2024-03-23 09:06:35,156 - dash_client.py:518 - INFO - got_sub_process for CURL
+2024-03-23 09:06:35,657 - dash_client.py:424 - INFO - GOT NEW SUBRPOCESS
+2024-03-23 09:06:36,166 - dash_client.py:421 - ERROR - Unable to download segment http://192.168.29.162:80/segments/segment_1080_init.mp4
+2024-03-23 09:06:36,166 - dash_client.py:422 - INFO - TRYING to GET NEW SUBRPOCESS, SLEEPING for 0.5 SECOND
+2024-03-23 09:06:36,166 - dash_client.py:515 - INFO - get_sub_process for CURL
